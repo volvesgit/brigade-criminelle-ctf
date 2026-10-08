@@ -1,0 +1,6 @@
+[build]
+builder = "DOCKERFILE"
+
+[env]
+  REACT_APP_API_URL = "https://web-production-8427c.up.railway.app"
+  CI = "false"

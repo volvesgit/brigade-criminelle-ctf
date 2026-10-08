@@ -1,0 +1,27 @@
+{
+  "name": "Brigade Criminelle CTF",
+  "description": "Application CTF avec agent IA pour extraction d'informations",
+  "image": "heroku/python",
+  "repository": "https://github.com/votre-username/brigade-criminelle-ctf",
+  "keywords": ["ctf", "ai", "fastapi", "react"],
+  "env": {
+    "GEMINI_API_KEY": {
+      "description": "Clé API Google Gemini pour l'IA",
+      "required": true
+    },
+    "OPENAI_API_KEY": {
+      "description": "Clé API OpenAI pour la synthèse vocale",
+      "required": true
+    },
+    "ADMIN_PASSWORD": {
+      "description": "Mot de passe pour le panel d'administration",
+      "value": "change_me"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

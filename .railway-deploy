@@ -1,0 +1,6 @@
+# Railway deployment trigger file
+# Created: June 7, 2025
+# Purpose: Force new deployment to fix snapshot download issue
+
+deployment_id: railway-force-deploy-$(date)
+status: ready
